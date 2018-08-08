@@ -15,5 +15,8 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   end 
   array 
+  else 
+    puts "Hey! No block was given!"
+  end 
 end 
 
